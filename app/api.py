@@ -2,7 +2,7 @@ from datetime import datetime
 
 from flask import Flask, render_template, jsonify
 
-app = application = Flask(__name__)
+app = Flask(__name__)
 
 
 @app.route("/", methods=["GET"])
